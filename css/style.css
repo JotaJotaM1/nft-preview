@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+body {
+  font-family: "Outfit", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: hsl(217, 54%, 11%);
+}
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.containergeneral {
+  width: 350px;
+  height: 600px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 1rem;
+  box-shadow: -4px 11px 18px 7px black;
+}
+.imgcube {
+  margin: 1.5rem 1.5rem 0 1.5rem;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  border-radius: 1rem;
+}
+
+.containertwo {
+  padding: 0 1.5rem 1.5rem 1.5rem;
+}
+
+.containerethereum {
+  display: flex;
+  justify-content: space-between;
+}
+.contsvg {
+  display: flex;
+}
+.eth {
+  color: hsl(178, 100%, 50%);
+}
+.svg {
+  height: 1.5rem;
+  margin: 13px 10px 0 0;
+}
+.containeravatar {
+  display: flex;
+}
+
+.avatar {
+  height: 2rem;
+  width: 2rem;
+  margin: auto 0;
+}
+
+.avatar {
+  margin-right: 13px;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  border-radius: 2rem;
+}
+
+.containeravatar {
+  margin: 10px 0 0 0;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: hsl(215, 51%, 50%);
+}
+
+.textgrey,
+span {
+  color: hsl(215, 51%, 70%);
+}
+
+@media (max-width: 480px) {
+  main {
+    margin: 0 2%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
