@@ -28,6 +28,13 @@ main {
   height: 300px;
   border-radius: 1rem;
 }
+.referencia {
+  color: white;
+  text-decoration: none;
+}
+.referencia :hover {
+  color: hsl(178, 100%, 50%);
+}
 
 .containertwo {
   padding: 0 1.5rem 1.5rem 1.5rem;
@@ -42,6 +49,7 @@ main {
 }
 .eth {
   color: hsl(178, 100%, 50%);
+  cursor: pointer;
 }
 .svg {
   height: 1.5rem;
@@ -63,6 +71,14 @@ main {
   border-color: white;
   border-width: 1px;
   border-radius: 2rem;
+}
+.jules {
+  color: white;
+}
+
+.jules:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
 }
 
 .containeravatar {
